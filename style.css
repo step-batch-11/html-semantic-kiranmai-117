@@ -20,6 +20,7 @@ a{
 hgroup{
   color: hsl(0, 0%, 30%);
   text-align: center;
+  /* position: fixed; */
 }
 
 p{
@@ -59,11 +60,29 @@ details{
 }
 
 address{
-  width: 300px;
+  line-height: 1em;
   border-bottom: 1px solid hsl(0, 0%, 95%);
-  padding: 10px;
+}
+
+address a{
+  font-size: 17px;
+  padding-left: 10px;
+  color: hsl(0, 0%, 30%);
+}
+
+h4{
+  margin: 0px;
 }
 
 footer{
   box-shadow: 1px 1px 1px hsl(0, 0%, 95%);
+}
+
+aside{
+  padding-left: 30px;
+  box-shadow: inset 1px 1px 1px hsl(0, 0%, 90%);
+}
+
+mark{
+  background-color: hsl(30, 18%, 74%);
 }
