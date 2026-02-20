@@ -20,7 +20,6 @@ a{
 hgroup{
   color: hsl(0, 0%, 30%);
   text-align: center;
-  /* position: fixed; */
 }
 
 p{
@@ -36,12 +35,13 @@ main{
 }
 
 article{
-  padding-left: 20px;
+  padding: 20px;
 }
 
 header{
   padding-top: 10px;
   color: hsl(0, 0%, 30%);
+  border-bottom: 1px solid hsl(0, 0%, 90%);
 }
 
 figure{
@@ -85,4 +85,7 @@ aside{
 
 mark{
   background-color: hsl(30, 18%, 74%);
+}
+
+section{
 }
